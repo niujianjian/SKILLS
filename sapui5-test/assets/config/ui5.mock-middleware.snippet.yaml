@@ -1,0 +1,10 @@
+server:
+  customMiddleware:
+    - name: sap-fe-mockserver
+      afterMiddleware: compression
+      configuration:
+        mountPath: /
+        services:
+          - urlPath: /sap/opu/odata/sap/__SERVICE_NAME__
+            metadataPath: ./webapp/localService/metadata.xml
+            mockdataPath: ./webapp/localService/mockdata

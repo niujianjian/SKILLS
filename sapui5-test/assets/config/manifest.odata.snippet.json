@@ -1,0 +1,25 @@
+{
+  "sap.app": {
+    "dataSources": {
+      "mainService": {
+        "uri": "/sap/opu/odata/sap/__SERVICE_NAME__/",
+        "type": "OData",
+        "settings": {
+          "odataVersion": "2.0"
+        }
+      }
+    }
+  },
+  "sap.ui5": {
+    "models": {
+      "": {
+        "dataSource": "mainService",
+        "preload": true,
+        "settings": {
+          "useBatch": false,
+          "defaultCountMode": "Inline"
+        }
+      }
+    }
+  }
+}

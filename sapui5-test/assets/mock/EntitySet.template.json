@@ -1,0 +1,12 @@
+[
+  {
+    "__SAMPLE_KEY_PROPERTY__": "K001",
+    "__SAMPLE_TEXT_PROPERTY__": "Sample Item 1",
+    "__SAMPLE_AUX_PROPERTY__": "__INPUT_A__"
+  },
+  {
+    "__SAMPLE_KEY_PROPERTY__": "K002",
+    "__SAMPLE_TEXT_PROPERTY__": "Sample Item 2",
+    "__SAMPLE_AUX_PROPERTY__": "__INPUT_B__"
+  }
+]
